@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<h1>Calculadora de IMC</h1>
+
+<p>El Índice de Masa Corporal (IMC) es una medida de grado de obesidad de una persona. 
+A través de él es posible saber si alguien está por encima o por debajo de los parámetros ideales según su estatura.</p>
+
+<form action="calcular.php" method="POST" class="formulario">
+
+    <div class="campo">
+        <label>Su altura (en cms)</label>
+        <input type="number" name="altura" required>
+    </div>
+
+    <div class="campo">
+        <label>Su peso (en kgs)</label>
+        <input type="number" name="peso" required>
+    </div>
+
+    <button type="submit">Calcular</button>
+
+</form>
+
+</body>
+</html>
